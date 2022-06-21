@@ -1,30 +1,32 @@
 <template>
   <div id="app">
     <TheHeader/>
+    <main></main>
+    <BlueBanner/>
     <TheFooter/>
+    <SignUpBanner/>
   </div>
 </template>
 
 <script>
 import TheHeader from './components/TheHeader.vue'
+import BlueBanner from './components/BlueBanner.vue'
 import TheFooter from './components/TheFooter.vue'
+import SignUpBanner from './components/SignUpBanner.vue'
 
 export default {
   name: 'App',
   components: {
     TheHeader,
+    BlueBanner,
     TheFooter,
-}
+    SignUpBanner,
+  }
 }
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
+@import "assets/scss/main.scss";
+
 </style>

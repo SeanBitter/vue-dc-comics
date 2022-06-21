@@ -1,0 +1,17 @@
+@import "./variables";
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@500&display=swap');
+
+#app {
+    font-family: 'Asap Condensed', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: white;
+    font-size: 0.8rem;
+}
+
+main {
+    background-image: url("/public/img/jumbotron.jpg");
+    background-size: cover;
+    min-height: 400px;
+}
+
