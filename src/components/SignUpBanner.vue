@@ -85,7 +85,7 @@
 
             .follow-us {
                 font-size: 1.2rem;
-                vertical-align: bottom;
+                padding-right: 0.7rem;
             }
 
             ul li a {
